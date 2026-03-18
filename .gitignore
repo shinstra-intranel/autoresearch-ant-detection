@@ -1,0 +1,29 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+
+# Training outputs and logs
+.trainer_output/
+run.log
+*.log
+
+# Local dataset contents
+.data/*
+!.data/README.md
+
+# Editor and OS files
+.vscode/*
+!.vscode/settings.json
+
+.DS_Store
+Thumbs.db
